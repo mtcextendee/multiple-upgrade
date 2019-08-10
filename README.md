@@ -8,9 +8,9 @@ Upgrade script for multi tenant Mautic https://mtcextendee.com/multiple/
 2, Run multiple-upgrade.php script
 3. Removemultiple-upgrade.php
 
-`rm multiple-upgrade.php;wget https://raw.githubusercontent.com/mtcextendee/multiple-upgrade/master/multiple-upgrade.php;`
-`php multiple-upgrade.php;`
-`rm multiple-upgrade.php;`
+- `rm multiple-upgrade.php;wget https://raw.githubusercontent.com/mtcextendee/multiple-upgrade/master/multiple-upgrade.php;`
+- `php multiple-upgrade.php;`
+- `rm multiple-upgrade.php;`
 
 ### Processing
 
@@ -37,14 +37,14 @@ Try clear cache from root directory for all instances:
 
 ### Validation
 
-After upgrade you can validate your update 
+After upgrade you can validate your update with basis steps
 
 - Login to your Mautic 
 - Try send e-mail from Configuration
 - Try check database schema for all instances: `php app/console mautic:multiple:run --command="doctrine:schema:update --dump-sql"`
   - If you see some DB schema queries apply it for all instances `php app/console mautic:multiple:run --command="doctrine:schema:update --dump-sql"`
   
-  ### More
+### More
   
-  https://mtcextendee.com/knowledge-base/multiple-command/
-  https://johnlinhart.com/blog/uh-oh-mautic-upgrade-was-not-successful
+- https://mtcextendee.com/knowledge-base/multiple-command/
+- https://johnlinhart.com/blog/uh-oh-mautic-upgrade-was-not-successful
