@@ -8,7 +8,7 @@ Upgrade script for multi tenant Mautic https://mtcextendee.com/multiple/
 2. Run multiple-upgrade.php script
 3. Removemultiple-upgrade.php
 
-- `rm multiple-upgrade.php;wget https://raw.githubusercontent.com/mtcextendee/multiple-upgrade/master/multiple-upgrade.php;`
+- `wget -N https://raw.githubusercontent.com/mtcextendee/multiple-upgrade/master/multiple-upgrade.php;`
 - `php multiple-upgrade.php;`
 - `rm multiple-upgrade.php;`
 
